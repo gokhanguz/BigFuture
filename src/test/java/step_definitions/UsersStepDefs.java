@@ -14,7 +14,7 @@ public class UsersStepDefs {
 
     @When("user click users button")
     public void user_click_users_button() {
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(5);
         new UsersPage().usersButton.click();
     }
 
