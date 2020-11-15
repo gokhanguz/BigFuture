@@ -1,4 +1,4 @@
-@book
+@smoke
   Feature: Books page
 
     Background:

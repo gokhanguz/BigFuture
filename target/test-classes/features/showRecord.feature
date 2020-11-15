@@ -1,4 +1,4 @@
-@sort
+@smoke
   Feature: Show records
     Background:
       Given the user is on the login page

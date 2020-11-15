@@ -1,4 +1,4 @@
-@login
+@smoke
 Feature: Login
   Background:
     Given the user is on the login page

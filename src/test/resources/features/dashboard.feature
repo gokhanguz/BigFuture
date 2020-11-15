@@ -1,4 +1,4 @@
-@dash
+@smoke
 Feature: Dashboard title
 
   Background:

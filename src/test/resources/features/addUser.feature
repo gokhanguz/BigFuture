@@ -1,4 +1,4 @@
-@add
+@smoke
 Feature: Add user and edit information
 
   Background:
