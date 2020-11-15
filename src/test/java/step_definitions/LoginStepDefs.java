@@ -22,6 +22,7 @@ public class LoginStepDefs {
     @When("user login as a {string}")
     public void user_login_as_a(String role) {
         LoginPage loginPage=new LoginPage();
+        BrowserUtils.waitFor(2);
         loginPage.login(role);
 
     }

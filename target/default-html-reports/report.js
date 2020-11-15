@@ -95,8 +95,10 @@ formatter.match({
   "location": "step_definitions.UsersStepDefs.user_see_new_User_Id()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.UsersStepDefs.user_see_new_User_Id(UsersStepDefs.java:55)\r\n\tat ✽.user see new User Id(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/addUser.feature:13)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });

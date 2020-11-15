@@ -21,7 +21,7 @@ public class studentBooksDefs {
 
     @Then("user select differenet categories")
     public void user_select_differenet_categories() {
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(5);
         Select select=new Select(new StudentBooksPage().bookCategories);
         List<String> categories=BrowserUtils.getElementsText(select.getOptions());
 

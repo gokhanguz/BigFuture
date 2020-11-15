@@ -1,5 +1,1 @@
-file:src/test/resources/features/showRecord.feature:12
-file:src/test/resources/features/addUser.feature:9:15:20
-file:src/test/resources/features/dashboard.feature:13
-file:src/test/resources/features/books.feature:18
-file:src/test/resources/features/login.feature:12:13
+file:src/test/resources/features/addUser.feature:9

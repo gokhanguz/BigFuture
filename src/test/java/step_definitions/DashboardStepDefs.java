@@ -11,7 +11,8 @@ public class DashboardStepDefs {
 
     @Then("Student user see all title")
     public void user_see_all_title(List<String> menu) {
-        BrowserUtils.waitFor(5);
+
+        BrowserUtils.waitFor(7);
 
         List<String> actual= BrowserUtils.getElementsText(new DashboardPage().titleDashboard);
         System.out.println("actual = " + actual);
@@ -21,7 +22,7 @@ public class DashboardStepDefs {
 
     @Then("Librarian user see all title")
     public void librarian_user_see_all_title(List<String> menu) {
-        BrowserUtils.waitFor(5);
+        BrowserUtils.waitFor(7);
         List<String> actual= BrowserUtils.getElementsText(new DashboardPage().titleDashboard);
         System.out.println("actual = " + actual);
         Assert.assertEquals(menu,actual);
