@@ -68,7 +68,7 @@ public class UsersPage extends BasePage{
 
 
 
-    public WebElement getFındUserEdit(String userNumber){
+    public WebElement getFindUserEdit(String userNumber){
         String xpath="//*[contains(text(), '"+userNumber+"')]/../td[1]";
 
         return Driver.get().findElement(By.xpath(xpath));

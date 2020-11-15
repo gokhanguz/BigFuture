@@ -50,8 +50,8 @@ public class UsersStepDefs {
     @Then("user see new User Id")
     public void user_see_new_User_Id() {
         BrowserUtils.waitFor(5);
-        List<String> ıdNumber=BrowserUtils.getElementsText(new UsersPage().userId);
-        Assert.assertTrue(ıdNumber.contains("2393"));
+        List<String> idNumber=BrowserUtils.getElementsText(new UsersPage().userId);
+        Assert.assertTrue(idNumber.contains("2393"));
 
     }
 
@@ -71,7 +71,7 @@ public class UsersStepDefs {
     @When("user click {string} user id Edit User button")
     public void user_click_user_id_Edit_User_button(String str) {
         BrowserUtils.waitFor(2);
-        new UsersPage().getFındUserEdit(str).click();
+        new UsersPage().getFindUserEdit(str).click();
     }
 
     @Then("user see edit page")
