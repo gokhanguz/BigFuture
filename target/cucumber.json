@@ -1,1 +1,1361 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5654513500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367942900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3098517400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click users button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_users_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:52:18.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Add users with all valid info",
+        "description": "",
+        "id": "add-user-and-edit-information;add-users-with-all-valid-info",
+        "after": [
+          {
+            "result": {
+              "duration": 735234600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062685900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click Add User button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_Add_User_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4079109400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fill in the blank",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_fill_in_the_blank()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70985800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click Save Changes button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_Save_Changes_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5148644900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user see new User Id",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_see_new_User_Id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4225953100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287754900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3065522600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click users button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_users_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:52:41.131Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Librarian able to close button",
+        "description": "",
+        "id": "add-user-and-edit-information;librarian-able-to-close-button",
+        "after": [
+          {
+            "result": {
+              "duration": 727257300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3066883300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click Add User button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_Add_User_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3071519600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click close button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11002000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user see Users Page",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_see_Users_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4195508900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303952400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3063486200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click users button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_users_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:52:55.594Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Librarians able to edit user info",
+        "description": "",
+        "id": "add-user-and-edit-information;librarians-able-to-edit-user-info",
+        "after": [
+          {
+            "result": {
+              "duration": 691079100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2053034100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click \"2393\" user id Edit User button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2393\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.UsersStepDefs.user_click_user_id_Edit_User_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33995000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user see edit page",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_see_edit_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add user and edit information",
+    "description": "",
+    "id": "add-user-and-edit-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addUser.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4450344000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288923400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:53:05.948Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User see column name",
+        "description": "",
+        "id": "books-page;user-see-column-name",
+        "after": [
+          {
+            "result": {
+              "duration": 687081300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5142734000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "table should have following columns name",
+            "match": {
+              "location": "step_definitions.studentBooksDefs.table_should_have_following_columns_name(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "ISBN"
+                ]
+              },
+              {
+                "cells": [
+                  "Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Author"
+                ]
+              },
+              {
+                "cells": [
+                  "Category"
+                ]
+              },
+              {
+                "cells": [
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed By"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5373340900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273474100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:53:16.537Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User search books with different categories",
+        "description": "",
+        "id": "books-page;user-search-books-with-different-categories",
+        "after": [
+          {
+            "result": {
+              "duration": 703312500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48453309500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select differenet categories",
+            "match": {
+              "location": "step_definitions.studentBooksDefs.user_select_differenet_categories()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Books page",
+    "description": "",
+    "id": "books-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/books.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4507702300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:54:11.358Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Students should have access to 2 modules",
+        "description": "",
+        "id": "dashboard-title;students-should-have-access-to-2-modules",
+        "after": [
+          {
+            "result": {
+              "duration": 1382163500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 275930900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login as a \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5044849900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Student user see all title",
+            "match": {
+              "location": "step_definitions.DashboardStepDefs.user_see_all_title(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4386386000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:54:22.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Students should have access to 2 modules",
+        "description": "",
+        "id": "dashboard-title;students-should-have-access-to-2-modules",
+        "after": [
+          {
+            "result": {
+              "duration": 699050800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 308746600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5094093400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Librarian user see all title",
+            "match": {
+              "location": "step_definitions.DashboardStepDefs.librarian_user_see_all_title(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboard"
+                ]
+              },
+              {
+                "cells": [
+                  "Users"
+                ]
+              },
+              {
+                "cells": [
+                  "Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard title",
+    "description": "",
+    "id": "dashboard-title",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dashboard.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4191894200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:54:33.115Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify both Students and librarians login",
+        "description": "",
+        "id": "login;verify-both-students-and-librarians-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1428552100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 282373600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login as a \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7504552700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4286948000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:54:46.541Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify both Students and librarians login",
+        "description": "",
+        "id": "login;verify-both-students-and-librarians-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 691707800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 290955300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7746180800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4237719000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317949700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3095285300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click users button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_users_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:54:59.568Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should be see records word and 10 records",
+        "description": "",
+        "id": "show-records;user-should-be-see-records-word-and-10-records",
+        "after": [
+          {
+            "result": {
+              "duration": 687112900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3072621200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user see \"records\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"records\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.UsersSortDefs.user_see_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3166513200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user see default \"10\" records",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.UsersSortDefs.user_see_default_records(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4210418100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286626100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3097969800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click users button",
+            "match": {
+              "location": "step_definitions.UsersStepDefs.user_click_users_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T10:55:14.169Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User see all count",
+        "description": "",
+        "id": "show-records;user-see-all-count",
+        "after": [
+          {
+            "result": {
+              "duration": 760023700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3069925100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click record dropdowm menu",
+            "match": {
+              "location": "step_definitions.UsersSortDefs.user_click_record_dropdowm_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3190809200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user see all number",
+            "match": {
+              "location": "step_definitions.UsersSortDefs.user_see_all_number(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Show records",
+    "description": "",
+    "id": "show-records",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/showRecord.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
