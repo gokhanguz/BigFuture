@@ -7,7 +7,7 @@
 
     Scenario: User see column name
       Then table should have following columns name
-      |Actions|
+      |Action|
       |ISBN   |
       |Name   |
       |Author |

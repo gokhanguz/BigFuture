@@ -11,8 +11,9 @@
         "steps": [
           {
             "result": {
-              "duration": 5654513500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.204\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2750869cc0699b50112be095dff...}\nSession ID: 2750869cc0699b50112be095dff525f7\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\r\n\tat ✽.the user is on the login page(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/addUser.feature:5)\r\n",
+              "duration": 305953179700,
+              "status": "failed"
             },
             "line": 5,
             "name": "the user is on the login page",
@@ -23,8 +24,7 @@
           },
           {
             "result": {
-              "duration": 367942900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user login as a \"librarian\"",
@@ -41,8 +41,7 @@
           },
           {
             "result": {
-              "duration": 3098517400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user click users button",
@@ -54,11 +53,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:52:18.805Z",
+        "start_timestamp": "2020-12-03T09:08:11.415Z",
         "before": [
           {
             "result": {
-              "duration": 1000400,
+              "duration": 999500,
               "status": "passed"
             },
             "match": {
@@ -72,8 +71,15 @@
         "id": "add-user-and-edit-information;add-users-with-all-valid-info",
         "after": [
           {
+            "embeddings": [
+              {
+                "data": "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KAAAAACKUAAAAAAUoQAAAAAoQgEAAABQhAIAAACgCAUAAABAEQoAAACAIhQAAAAARSgAAAAAilAAAAAAFKEAAAAAKEIBAAAAUIQCAAAAoAgFAAAAQBEKAAAAgCIUAAAAAEUoAAAAAIpQAAAAABShAAAAAChCAQAAAFCEAgAAAKAIBQAAAEARCgAAAIAiFAAAAABXfTkPAAABwElEQVRFKAAAAACKUAAAAAAUoQAAAAAoQgEAAABQhAIAAACgCAUAAABAEQoAAACAIhQAAAAARSgAAAAAilAAAAAAFKEAAAAAKEIBAAAAUIQCAAAAoAgFAAAAQBEKAAAAgCIUAAAAAEUoAAAAAIpQAAAAABShAAAAAChCAQAAAFCEAgAAAKAIBQAAAEARCgAAAIAiFAAAAABFKAAAAACKUAAAAAAUoQAAAAAoQgEAAABQhAIAAACgCAUAAABAEQoAAACAIhQAAAAARSgAAAAAilAAAAAAFKEAAAAAKEIBAAAAUIQCAAAAoAgFAAAAQBEKAAAAgCIUAAAAAEUoAAAAAIpQAAAAABShAAAAAChCAQAAAFCEAgAAAKAIBQAAAEARCgAAAIAiFAAAAABFKAAAAACKUAAAAAAUoQAAAAAoQgEAAABQhAIAAACgCAUAAABAEQoAAACAIhQAAAAARSgAAAAAilAAAAAAFKEAAAAAKEIBAAAAUIQCAAAAoAgFAAAAQBEKAAAAgCIUAAAAAEUoAAAAAIpQAAAAABShAAAAAChCAQAAAFCEAgAAAKAIBQAAAEARCgAAAIAiFAAAAADl/wMcqPQ2Lcq+ngAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "screenshot"
+              }
+            ],
             "result": {
-              "duration": 735234600,
+              "duration": 1094051700,
               "status": "passed"
             },
             "match": {
@@ -86,8 +92,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3062685900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user click Add User button",
@@ -98,8 +103,7 @@
           },
           {
             "result": {
-              "duration": 4079109400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "user fill in the blank",
@@ -110,8 +114,7 @@
           },
           {
             "result": {
-              "duration": 70985800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user click Save Changes button",
@@ -122,8 +125,7 @@
           },
           {
             "result": {
-              "duration": 5148644900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "user see new User Id",
@@ -148,7 +150,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4225953100,
+              "duration": 181605287100,
               "status": "passed"
             },
             "line": 5,
@@ -160,8 +162,9 @@
           },
           {
             "result": {
-              "duration": 287754900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a7c0e72579489a8270c4e95813f...}\nSession ID: a7c0e72579489a8270c4e95813f7eaa8\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\r\n\tat pages.LoginPage.login(LoginPage.java:34)\r\n\tat step_definitions.LoginStepDefs.user_login_as_a(LoginStepDefs.java:25)\r\n\tat ✽.user login as a \"librarian\"(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/addUser.feature:6)\r\n",
+              "duration": 22997300,
+              "status": "failed"
             },
             "line": 6,
             "name": "user login as a \"librarian\"",
@@ -178,8 +181,7 @@
           },
           {
             "result": {
-              "duration": 3065522600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user click users button",
@@ -191,7 +193,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:52:41.131Z",
+        "start_timestamp": "2020-12-03T09:13:18.504Z",
         "before": [
           {
             "result": {
@@ -209,8 +211,9 @@
         "after": [
           {
             "result": {
-              "duration": 727257300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a7c0e72579489a8270c4e95813f...}\nSession ID: a7c0e72579489a8270c4e95813f7eaa8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 14997000,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -222,8 +225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3066883300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user click Add User button",
@@ -234,8 +236,7 @@
           },
           {
             "result": {
-              "duration": 3071519600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "user click close button",
@@ -246,8 +247,7 @@
           },
           {
             "result": {
-              "duration": 11002000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "user see Users Page",
@@ -272,8 +272,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4195508900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a7c0e72579489a8270c4e95813f...}\nSession ID: a7c0e72579489a8270c4e95813f7eaa8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\r\n\tat ✽.the user is on the login page(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/addUser.feature:5)\r\n",
+              "duration": 25997300,
+              "status": "failed"
             },
             "line": 5,
             "name": "the user is on the login page",
@@ -284,8 +285,7 @@
           },
           {
             "result": {
-              "duration": 303952400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user login as a \"librarian\"",
@@ -302,8 +302,7 @@
           },
           {
             "result": {
-              "duration": 3063486200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user click users button",
@@ -315,10 +314,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:52:55.594Z",
+        "start_timestamp": "2020-12-03T09:16:20.151Z",
         "before": [
           {
             "result": {
+              "duration": 1000100,
               "status": "passed"
             },
             "match": {
@@ -333,8 +333,9 @@
         "after": [
           {
             "result": {
-              "duration": 691079100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a7c0e72579489a8270c4e95813f...}\nSession ID: a7c0e72579489a8270c4e95813f7eaa8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 16997900,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -346,8 +347,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2053034100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "user click \"2393\" user id Edit User button",
@@ -364,8 +364,7 @@
           },
           {
             "result": {
-              "duration": 33995000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "user see edit page",
@@ -410,8 +409,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4450344000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.930\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 78e4b4acd5acfab85f5703e60cb...}\nSession ID: 78e4b4acd5acfab85f5703e60cbdb818\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\r\n\tat ✽.the user is on the login page(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/books.feature:5)\r\n",
+              "duration": 305876817700,
+              "status": "failed"
             },
             "line": 5,
             "name": "the user is on the login page",
@@ -422,8 +422,7 @@
           },
           {
             "result": {
-              "duration": 288923400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user login as a \"student\"",
@@ -441,7 +440,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:53:05.948Z",
+        "start_timestamp": "2020-12-03T09:08:11.419Z",
         "before": [
           {
             "result": {
@@ -458,8 +457,15 @@
         "id": "books-page;user-see-column-name",
         "after": [
           {
+            "embeddings": [
+              {
+                "data": "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\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "screenshot"
+              }
+            ],
             "result": {
-              "duration": 687081300,
+              "duration": 1166416600,
               "status": "passed"
             },
             "match": {
@@ -472,8 +478,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5142734000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "table should have following columns name",
@@ -535,7 +540,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5373340900,
+              "duration": 24094641400,
               "status": "passed"
             },
             "line": 5,
@@ -547,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 273474100,
+              "duration": 340931300,
               "status": "passed"
             },
             "line": 6,
@@ -566,7 +571,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:53:16.537Z",
+        "start_timestamp": "2020-12-03T09:13:18.492Z",
         "before": [
           {
             "result": {
@@ -584,8 +589,9 @@
         "after": [
           {
             "result": {
-              "duration": 703312500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f1182a65b368c1f576f2141a333...}\nSession ID: f1182a65b368c1f576f2141a3335baf3\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 60037091500,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -597,8 +603,9 @@
         "steps": [
           {
             "result": {
-              "duration": 48453309500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#book_categories\"}\n  (Session info: chrome\u003d87.0.4280.66)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f1182a65b368c1f576f2141a333...}\nSession ID: f1182a65b368c1f576f2141a3335baf3\n*** Element info: {Using\u003did, value\u003dbook_categories}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat step_definitions.studentBooksDefs.user_select_differenet_categories(studentBooksDefs.java:25)\r\n\tat ✽.user select differenet categories(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/books.feature:19)\r\n",
+              "duration": 7889922600,
+              "status": "failed"
             },
             "line": 19,
             "name": "user select differenet categories",
@@ -635,232 +642,6 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4507702300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T10:54:11.358Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Students should have access to 2 modules",
-        "description": "",
-        "id": "dashboard-title;students-should-have-access-to-2-modules",
-        "after": [
-          {
-            "result": {
-              "duration": 1382163500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 275930900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user login as a \"student\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student\"",
-                  "offset": 16
-                }
-              ],
-              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5044849900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Student user see all title",
-            "match": {
-              "location": "step_definitions.DashboardStepDefs.user_see_all_title(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4386386000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T10:54:22.594Z",
-        "before": [
-          {
-            "result": {
-              "duration": 997600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Students should have access to 2 modules",
-        "description": "",
-        "id": "dashboard-title;students-should-have-access-to-2-modules",
-        "after": [
-          {
-            "result": {
-              "duration": 699050800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 308746600,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user login as a \"librarian\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"librarian\"",
-                  "offset": 16
-                }
-              ],
-              "location": "step_definitions.LoginStepDefs.user_login_as_a(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5094093400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Librarian user see all title",
-            "match": {
-              "location": "step_definitions.DashboardStepDefs.librarian_user_see_all_title(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Dashboard"
-                ]
-              },
-              {
-                "cells": [
-                  "Users"
-                ]
-              },
-              {
-                "cells": [
-                  "Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Dashboard title",
-    "description": "",
-    "id": "dashboard-title",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/dashboard.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
         "line": 3,
         "name": "",
         "description": "",
@@ -869,7 +650,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4191894200,
+              "duration": 13789657300,
               "status": "passed"
             },
             "line": 4,
@@ -882,10 +663,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:54:33.115Z",
+        "start_timestamp": "2020-12-03T09:08:11.415Z",
         "before": [
           {
             "result": {
+              "duration": 1999600,
               "status": "passed"
             },
             "match": {
@@ -900,8 +682,9 @@
         "after": [
           {
             "result": {
-              "duration": 1428552100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 923ca990b5097886ccbdcf52cfd...}\nSession ID: 923ca990b5097886ccbdcf52cfdb388b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 60342310700,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -913,7 +696,7 @@
         "steps": [
           {
             "result": {
-              "duration": 282373600,
+              "duration": 1481772700,
               "status": "passed"
             },
             "line": 7,
@@ -931,8 +714,9 @@
           },
           {
             "result": {
-              "duration": 7504552700,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 923ca990b5097886ccbdcf52cfd...}\nSession ID: 923ca990b5097886ccbdcf52cfdb388b\n*** Element info: {Using\u003dxpath, value\u003d(//*[@class\u003d\u0027title\u0027])[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat step_definitions.LoginStepDefs.user_on(LoginStepDefs.java:33)\r\n\tat ✽.user on \"Books\"(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/login.feature:8)\r\n",
+              "duration": 324562611900,
+              "status": "failed"
             },
             "line": 8,
             "name": "user on \"Books\"",
@@ -963,7 +747,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4286948000,
+              "duration": 86482303800,
               "status": "passed"
             },
             "line": 4,
@@ -976,7 +760,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:54:46.541Z",
+        "start_timestamp": "2020-12-03T09:14:51.601Z",
         "before": [
           {
             "result": {
@@ -994,8 +778,9 @@
         "after": [
           {
             "result": {
-              "duration": 691707800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 923ca990b5097886ccbdcf52cfd...}\nSession ID: 923ca990b5097886ccbdcf52cfdb388b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 31995600,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -1007,8 +792,9 @@
         "steps": [
           {
             "result": {
-              "duration": 290955300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 923ca990b5097886ccbdcf52cfd...}\nSession ID: 923ca990b5097886ccbdcf52cfdb388b\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\r\n\tat pages.LoginPage.login(LoginPage.java:34)\r\n\tat step_definitions.LoginStepDefs.user_login_as_a(LoginStepDefs.java:25)\r\n\tat ✽.user login as a \"librarian\"(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/login.feature:7)\r\n",
+              "duration": 32995600,
+              "status": "failed"
             },
             "line": 7,
             "name": "user login as a \"librarian\"",
@@ -1025,8 +811,7 @@
           },
           {
             "result": {
-              "duration": 7746180800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "user on \"Dashboard\"",
@@ -1077,8 +862,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4237719000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 295.730\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 02ad430646e5e1ac8a1e6fd7272...}\nSession ID: 02ad430646e5e1ac8a1e6fd7272786de\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\r\n\tat ✽.the user is on the login page(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/showRecord.feature:4)\r\n",
+              "duration": 306346340400,
+              "status": "failed"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -1089,8 +875,7 @@
           },
           {
             "result": {
-              "duration": 317949700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user login as a \"librarian\"",
@@ -1107,8 +892,7 @@
           },
           {
             "result": {
-              "duration": 3095285300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user click users button",
@@ -1120,7 +904,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:54:59.568Z",
+        "start_timestamp": "2020-12-03T09:08:11.415Z",
         "before": [
           {
             "result": {
@@ -1138,8 +922,9 @@
         "after": [
           {
             "result": {
-              "duration": 687112900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 02ad430646e5e1ac8a1e6fd7272...}\nSession ID: 02ad430646e5e1ac8a1e6fd7272786de\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 60989180800,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -1151,8 +936,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3072621200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "user see \"records\" button",
@@ -1169,8 +953,7 @@
           },
           {
             "result": {
-              "duration": 3166513200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user see default \"10\" records",
@@ -1201,7 +984,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4210418100,
+              "duration": 61182536500,
               "status": "passed"
             },
             "line": 4,
@@ -1213,7 +996,7 @@
           },
           {
             "result": {
-              "duration": 286626100,
+              "duration": 371940000,
               "status": "passed"
             },
             "line": 5,
@@ -1231,8 +1014,9 @@
           },
           {
             "result": {
-              "duration": 3097969800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d(//*[@class\u003d\u0027nav-link\u0027])[2]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat step_definitions.UsersStepDefs.user_click_users_button(UsersStepDefs.java:18)\r\n\tat ✽.user click users button(file:///C:/Users/Gökhan/IdeaProjects/BigFuture/src/test/resources/features/showRecord.feature:6)\r\n",
+              "duration": 55814038500,
+              "status": "failed"
             },
             "line": 6,
             "name": "user click users button",
@@ -1244,7 +1028,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T10:55:14.169Z",
+        "start_timestamp": "2020-12-03T09:14:18.767Z",
         "before": [
           {
             "result": {
@@ -1262,8 +1046,9 @@
         "after": [
           {
             "result": {
-              "duration": 760023700,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CA9OM3D\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\GKHAN~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 02ad430646e5e1ac8a1e6fd7272...}\nSession ID: 02ad430646e5e1ac8a1e6fd7272786de\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\r\n",
+              "duration": 22996400,
+              "status": "failed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -1275,8 +1060,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3069925100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "user click record dropdowm menu",
@@ -1287,8 +1071,7 @@
           },
           {
             "result": {
-              "duration": 3190809200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "user see all number",
